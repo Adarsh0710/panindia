@@ -1019,7 +1019,7 @@ import {
   Mail,
   ChevronRight
 } from 'lucide-react';
-import panIndiaLogo from './dist/assets/panindia.jpg';
+import panIndiaLogo from '..panindia.jpg';
 
 type Page = 'home' | 'about' | 'services' | 'contact';
 
@@ -1091,7 +1091,7 @@ function App() {
                 LOGISTICS
               </div> */}
               <div className="flex items-center gap-3">
-                <img src="/dist/assets/panindia.jpg" alt="Pan India Logistics" className="h-16 md:h-20 object-contain" />
+                <img src="panindia.jpg" alt="Pan India Logistics" className="h-16 md:h-20 object-contain" />
               </div>
 
             </div>
@@ -1845,7 +1845,7 @@ const Footer = () => (
         <div className="md:col-span-2">
           {/* Image Logo */}
           {/* <img src={panIndiaLogo} alt="PanIndia Logistics Logo" className="h-20 mb-6" /> */}
-          <img src="/dist/assets/panindia.jpg" alt="PanIndia Logo" className="h-20 mb-6" />
+          <img src="panindia.jpg" alt="PanIndia Logo" className="h-20 mb-6" />
 
 
           <p className="text-lg text-gray-300 leading-relaxed mb-6">
