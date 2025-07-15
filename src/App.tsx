@@ -94,7 +94,7 @@ function App() {
               
                 
               </div> */}
-
+             <img src={panIndiaLogo} alt="PanIndia Logo" className="h-20 mb-6" />
             </div>
           </div>
           
