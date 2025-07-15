@@ -18,7 +18,7 @@ import {
   Mail,
   ChevronRight
 } from 'lucide-react';
-import panIndiaLogo from '../panindia.jpg';
+import panIndiaLogo from './assets/panindia.jpg';
 
 type Page = 'home' | 'about' | 'services' | 'contact';
 
@@ -90,8 +90,8 @@ function App() {
                 LOGISTICS
               </div> */}
               <div className="flex items-center gap-3">
-{/*                <img src={panIndiaLogo} alt="Pan India Logistics" className="h-16 md:h-20 object-contain" /> */}
-              <img src="/panindia.jpg" />
+               <img src={panIndiaLogo} alt="Pan India Logistics" className="h-16 md:h-20 object-contain" />
+              
                 
               </div>
 
